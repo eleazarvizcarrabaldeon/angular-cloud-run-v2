@@ -3,9 +3,7 @@
 > **Módulo 5 — DevOps y Automatización del SDLC**  
 > **UTEC Posgrado | Arquitectura de Soluciones Multinube**  
 > **Docente:** Aldo Trucios
-
 ---
-
 ## 📋 Descripción
 
 En este laboratorio implementarás un pipeline de **despliegue Canary** sobre **Google Cloud Run** usando **GitHub Actions**. El pipeline automatiza el ciclo completo:
