@@ -9,7 +9,7 @@ COPY package.json ./
 # I am not creating a package-lock.json, so I will run npm install
 # and it will be generated. In a real world scenario, it should be
 # part of the repository.
-RUN npm install
+RUN npm install --legacy-peer-deps
 
 # Copy the rest of the application files
 COPY . .
